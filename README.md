@@ -1,6 +1,3 @@
-Restaurant App Documentation
-Overview
-Your restaurant app aims to provide a seamless experience for customers, allowing them to browse menus, place orders, and make payments. Let’s dive into the key components:
 # Restaurant App
 
 ![](/public/app-image.png)
@@ -36,17 +33,12 @@ Set up environment variables (e.g., `.env.local`) to store sensitive data such a
 
 Display featured dishes, promotions, and restaurant details. Fetch data using `getServerSideProps`.
 
-### Menu Page (CSR)
+### Menu Page (CSR) , Order Page (CSR), Checkout Page (CSR)
 
 Show menu categories (appetizers, main courses, desserts). Use React Query to fetch menu items dynamically.
+Integrate Stripe for payments. Handle card details securely. Confirm orders and calculate totals.Show menu categories (appetizers, main courses, desserts). Use React Query to fetch menu items dynamically.
 
-### Order Page (CSR)
-
-Allow users to customize their order (quantity, special requests). Fetch menu items and prices via React Query.
-
-### Checkout Page (CSR)
-
-Integrate Stripe for payments. Handle card details securely. Confirm orders and calculate totals.
+ALSO Integrate Stripe for payments. Handle card details securely. Confirm orders and calculate totals.
 
 ## API Routes
 
