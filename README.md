@@ -38,7 +38,7 @@ Display featured dishes, promotions, and restaurant details. Fetch data using `g
 Show menu categories (appetizers, main courses, desserts). Use React Query to fetch menu items dynamically.
 Integrate Stripe for payments. Handle card details securely. Confirm orders and calculate totals.Show menu categories (appetizers, main courses, desserts). Use React Query to fetch menu items dynamically.
 
-ALSO Integrate Stripe for payments. Handle card details securely. Confirm orders and calculate totals.
+ALSO Integrate Stripe for payments. Handle card details securely. Confirm orders and calculate totals. 
 
 ## API Routes
 
